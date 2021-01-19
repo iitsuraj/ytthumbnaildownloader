@@ -1,7 +1,7 @@
 import Layout from "../components/layout";
 import Head from "next/head";
 import { NextSeo } from "next-seo";
-
+export const config = { amp: true }
 const About = () => {
   const home = {
     title: "About - Youtube Thumbnail Downloader",
