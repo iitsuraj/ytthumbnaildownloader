@@ -54,12 +54,47 @@ class MyDocument extends Document {
             property="og:site_name"
             content="ytthumbnaildownloader.itsuraj.com"
           />
-          <meta
-            property="og:url"
-            content="https://ytthumbnaildownloader.itsuraj.com"
-          />
           <meta name="robots" content="index,follow" />
           <meta name="googlebot" content="index,follow" />
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify({
+                "@context": "https://schema.org/",
+                "@type": "HowTo",
+                name: "How to Download HD Youtube Thumbnail",
+                description:
+                  "In This Article, I will teach you about an app called YoutubeThumbnailDownloader, which is a free online tool. With the help of it, you can download Youtube  Video Thumbnails 🖼 in Different Sizes and Qualities.",
+                totalTime: "PT1M",
+                step: [
+                  {
+                    "@type": "HowToStep",
+                    text:
+                      "Copy the Youtube Video Link / URL from Youtube App or Website",
+                  },
+                  {
+                    "@type": "HowToStep",
+                    text:
+                      "Paste the Youtube video Link / URL in the Input Field Above.",
+                  },
+                  {
+                    "@type": "HowToStep",
+                    text: "Click on the Download button.",
+                  },
+                  {
+                    "@type": "HowToStep",
+                    text:
+                      "You will get a list of all The Available Youtube Video Thumbnail Qualities, Which you can Choose From High Quality(HQ), High Definition (HD), 4K, 720p, 1080p Thumbnail, Low Quality, and Medium Quality Youtube Thumbnails are also available.",
+                  },
+                  {
+                    "@type": "HowToStep",
+                    text:
+                      "Click on the Download Button, and Your Youtube Video Thumbnail will be Downloaded to your Device's Storage.",
+                  },
+                ],
+              }),
+            }}
+          />
         </Head>
         <body className={"bg-gray-100"}>
           <Main />

@@ -1,7 +1,8 @@
 import Layout from "../components/layout";
 import Head from "next/head";
 import { NextSeo } from "next-seo";
-export const config = { amp: true }
+import AppInfo from "../components/appInfo";
+
 const About = () => {
   const home = {
     title: "About - Youtube Thumbnail Downloader",
@@ -32,7 +33,9 @@ const About = () => {
         <meta name="twitter:description" content={home.description} />
         <meta name="twitter:image" content={home.image} />
       </Head>
-      <h1>About</h1>
+      <div className="container mx-auto">
+        <AppInfo />
+      </div>
     </Layout>
   );
 };

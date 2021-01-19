@@ -108,7 +108,7 @@ const home = () => {
           </div>
         </div>
         <div className={"h-8 bg-gray-200 text-gray-900 flex"}>
-          <h1 className={"my-auto px-4"}>Your recent downloads: </h1>
+          <h3 className={"my-auto px-4"}>Your recent downloads: </h3>
         </div>
       </nav>
       <div className={"container mx-auto mt-4 mb-16 px-4"}>
