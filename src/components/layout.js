@@ -1,4 +1,4 @@
-import ActiveLink from "components/activeLink";
+import ActiveLink from "../components/activeLink";
 
 const Layout = ({ children }) => {
   return (

@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
-    "baseUrl": "src"
-  }
+    "baseUrl": "src",
+  },
+  "exclude": ["/out", "/.next", "/node_modules","out", ".next", "node_modules"]
 }

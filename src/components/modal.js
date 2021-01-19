@@ -55,10 +55,10 @@ const Modal = ({ videoId, onClose }) => {
   }
 
   return (
-    <div className="w-full h-screen md:h-auto max-w-screen-sm fixed overflow-hidden z-50 modal">
-      <div
-        className={`animated fadeInUp fadeInUp rounded-lg rounded-t-none bg-white `}
-      >
+    <div
+      className={`w-full h-screen md:h-auto max-w-screen-sm fixed overflow-hidden z-50 modal`}
+    >
+      <div className={`animated fadeInUp rounded-lg rounded-t-none bg-white `}>
         <div className="relative">
           <div
             className="h-48 bg-cover bg-no-repeat bg-center"

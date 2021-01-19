@@ -1,10 +1,12 @@
-import Layout from "components/layout";
-import Card from "components/card";
-import Modal from "components/modal";
-import AppInfo from "components/appInfo";
-import { lastDownloadedStorage, addANewDownload } from "lib";
-
+import Layout from "../components/layout";
+import Card from "../components/card";
+import Modal from "../components/modal";
+import AppInfo from "../components/appInfo";
+import { lastDownloadedStorage, addANewDownload } from "../lib";
+import Head from "next/head";
+import { NextSeo } from "next-seo";
 import { useState, useRef, useEffect } from "react";
+
 const home = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [url, setUrl] = useState("");
@@ -47,13 +49,42 @@ const home = () => {
     }
   }, []);
 
+  const home = {
+    title: "Youtube Thumbnail Downloader For PC / Mobile",
+    description:
+      "Save any Youtube Video thumbnail Image in all Sizes and Quality. You can download Youtube Video (HD, HQ, 1080p, 4K etc) Thumbnail in Just 1 Click for FREE. Youtube Thumbnail can be downloaded for PC, MAC, Android MObile Phone, iPhones and all Other Devices. You can also view HD Thumbnails of Youtube Video if You Want.",
+    url: "https://ytthumbnaildownloader.itsuraj.com/",
+    image: "https://ytthumbnaildownloader.itsuraj.com/social-1200x800.png",
+  };
+
   return (
     <Layout>
+      <NextSeo
+        title={home.title}
+        description={home.description}
+        canonical={home.url}
+        openGraph={{
+          title: home.title,
+          description: home.description,
+          url: home.url,
+          images: [
+            {
+              url: home.image,
+            },
+          ],
+        }}
+      />
+      <Head>
+        <meta name="twitter:title" content={home.title} />
+        <meta name="twitter:description" content={home.description} />
+        <meta name="twitter:image" content={home.image} />
+      </Head>
       <nav className="bg-secondary sticky top-0">
         <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
           <div className="relative flex items-center justify-center h-16">
             <input
               type="text"
+              aria-label="Enter the youtube URL here"
               className="h-10 w-full pr-8 pl-5 rounded z-0 focus:shadow focus:outline-none"
               placeholder="Enter the youtube URL here"
               autoFocus
@@ -96,8 +127,8 @@ const home = () => {
       </div>
       {isOpen ? <Modal videoId={videoId} onClose={closeModal} /> : null}
       <div
-        className={`animated fadeIn fixed w-full h-screen top-0 left-0 transition-all bg-gray-500 bg-opacity-50 blur ${
-          isOpen ? "visible opacity-100" : "hidden opacity-0"
+        className={`fixed w-full h-screen top-0 left-0 transition-all bg-gray-500 bg-opacity-50 blur ${
+          isOpen ? "animated fadeIn visible opacity-100" : "hidden opacity-0"
         }`}
         onClick={closeModal}
       ></div>
