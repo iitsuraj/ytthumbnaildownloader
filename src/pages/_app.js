@@ -8,12 +8,7 @@ function MyApp({ Component, pageProps }) {
     logPageView();
     Router.events.on("routeChangeComplete", logPageView);
   }, []);
-  return (
-    <Container>
-      <DefaultSeo {...SEO} />
-      <Component {...pageProps} />
-    </Container>
-  );
+  return <Component {...pageProps} />;
 }
 
 export default MyApp;
