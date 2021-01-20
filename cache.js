@@ -14,7 +14,7 @@ module.exports = [
       cacheName: "start-url",
       expiration: {
         maxEntries: 1,
-        maxAgeSeconds: 24 * 60 * 60, // 24 hours
+        maxAgeSeconds: 24 * 60 * 60 * 2, // 24 hours
       },
     },
   },

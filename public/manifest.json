@@ -33,5 +33,16 @@
         }
     ],
     "shortcuts": [],
-    "screenshots": []
+    "screenshots": [
+        {
+            "src": "/screenshots/360x740.png",
+            "sizes": "360x740",
+            "type": "image/jpeg"
+        },
+        {
+            "src": "/screenshots/1280x720.png",
+            "sizes": "1280x720",
+            "type": "image/jpeg"
+        }
+    ]
 }
