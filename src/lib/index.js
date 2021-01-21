@@ -15,7 +15,7 @@ export const addANewDownload = (videoId) => {
     let lastDownloaded = lastDownloadedStorage();
     if (lastDownloaded) {
       lastDownloaded = lastDownloaded || [];
-      lastDownloaded.push(videoId);
+      lastDownloaded.unshift(videoId);
       lastDownloaded = [...new Set(lastDownloaded)];
       localStorage.setItem(
         "@last-downloaded",
