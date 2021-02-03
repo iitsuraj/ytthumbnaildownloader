@@ -2,4 +2,4 @@
 
 ---
 
-🚀 Launch on -ytthumnaildownloader.itsuraj.com
+🚀 Launch on - https://ytthumnaildownloader.itsuraj.com
