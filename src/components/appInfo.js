@@ -2,7 +2,10 @@ const AppInfo = () => {
   return (
     <div className="mt-10 mb-20">
       <div>
-        <h1 className="font-bold">YoutubeThumbnailDownloader</h1>
+        <h1 className="font-bold">
+          Youtube Thumbnail Downloader | ytthumbnaildownloader |
+          Youtubethumbnaildownloader
+        </h1>
         <p>
           Is a Free online tool. With the help of it, you can download Youtube
           Video Thumbnails 🖼 in Different Sizes and Qualities. Just Paste your
@@ -36,7 +39,7 @@ const AppInfo = () => {
           Thumbnails are obviously executed on site pages as discrete, littler
           duplicates of the first picture, to some degree since one motivation
           behind a thumbnail picture on a website page is to decrease transfer
-          speed and download time.Some website specialists produce thumbnails
+          speed and download time. Some website specialists produce thumbnails
           with HTML or customer side scripting that makes the client's program
           contract the image, instead of utilization a littler duplicate of the
           picture.

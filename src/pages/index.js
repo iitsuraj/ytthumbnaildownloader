@@ -52,7 +52,7 @@ const home = () => {
   const home = {
     title: "Youtube Thumbnail Downloader For PC / Mobile",
     description:
-      "Save any Youtube Video thumbnail Image in all Sizes and Quality. You can download Youtube Video (HD, HQ, 1080p, 4K etc) Thumbnail in Just 1 Click for FREE. Youtube Thumbnail can be downloaded for PC, MAC, Android MObile Phone, iPhones and all Other Devices. You can also view HD Thumbnails of Youtube Video if You Want.",
+      "Download YouTube video thumbnail of all quality. You can download Youtube Thumbnail (HD, HQ, 1080p, 4K, etc.).",
     url: "https://ytthumbnaildownloader.itsuraj.com/",
     image: "https://ytthumbnaildownloader.itsuraj.com/social-1200x800.png",
   };
@@ -108,7 +108,7 @@ const home = () => {
           </div>
         </div>
         <div className={"h-8 bg-gray-200 text-gray-900 flex"}>
-          <h3 className={"my-auto px-4"}>Your recent downloads: </h3>
+          <h3 className={"my-auto px-4"}>Thumbnails downloaded: </h3>
         </div>
       </nav>
       <div className={"container mx-auto mt-4 mb-16 px-4"}>
