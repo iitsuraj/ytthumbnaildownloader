@@ -1,13 +1,12 @@
 import Layout from "../components/layout";
 import Head from "next/head";
 import { NextSeo } from "next-seo";
-import AppInfo from "../components/appInfo";
 
 const About = () => {
   const home = {
     title: "About - Youtube Thumbnail Downloader",
     description:
-      "Save any Youtube Video thumbnail Image in all Sizes and Quality. You can download Youtube Video (HD, HQ, 1080p, 4K etc) Thumbnail in Just 1 Click for FREE. Youtube Thumbnail can be downloaded for PC, MAC, Android MObile Phone, iPhones and all Other Devices. You can also view HD Thumbnails of Youtube Video if You Want.",
+      "Save Youtube thumbnail in all Sizes and Quality. Learn more about how to download youtube thumbnail",
     url: "https://ytthumbnaildownloader.itsuraj.com/about/",
     image: "https://ytthumbnaildownloader.itsuraj.com/social-1200x800.png",
   };
@@ -34,7 +33,31 @@ const About = () => {
         <meta name="twitter:image" content={home.image} />
       </Head>
       <div className="container mx-auto">
-        <AppInfo />
+        <div className="mt-10 mb-20">
+          <div className="my-10">
+            <h1 className="font-semibold">Download YouTube Thumbnail</h1>
+            <p>
+              Is a Free online tool. With the help of it, you can download
+              Youtube Video Thumbnails 🖼 in Different Sizes and Qualities.
+            </p>
+            <hr />
+            <p>Supported image formates</p>
+            <ol className="mx-2 list-decimal">
+              <li>HD Image - 1280x720px</li>
+              <li>SD Image - 640x480px</li>
+              <li>HQ Image - 480x360px</li>
+              <li>MQ Image - 320x180px</li>
+              <li>Normal Image - 120x90px</li>
+            </ol>
+          </div>
+          <div className="my-10">
+            <h2 className="font-semibold">Note: </h2>
+            <p>
+              We never store your thumbnails on our server, Your entry is 100%
+              private, we never track our user's searches.
+            </p>
+          </div>
+        </div>
       </div>
     </Layout>
   );

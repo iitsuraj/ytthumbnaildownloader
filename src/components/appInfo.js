@@ -1,19 +1,25 @@
 const AppInfo = () => {
   return (
     <div className="mt-10 mb-20">
-      <div>
-        <h1 className="font-bold">
+      <div className="my-10">
+        <h1 className={"font-semibold"}>
+          Download YouTube Video Thumbnail in Different Sizes and Qualities free
+          of cost.
+        </h1>
+      </div>
+      <div className={"my-10"}>
+        <h2 className="font-semibold">
           Youtube Thumbnail Downloader | ytthumbnaildownloader |
           Youtubethumbnaildownloader
-        </h1>
+        </h2>
         <p>
-          Is a Free online tool. With the help of it, you can download Youtube
-          Video Thumbnails 🖼 in Different Sizes and Qualities. Just Paste your
-          Youtube Video Link in the Input Box and press "Download," and That's
-          it.
+          Is a Free online tool 🔧. With the help of it, you can download
+          Youtube Video Thumbnails 🖼 in Different Sizes and Qualities. Just
+          Paste your Youtube Video Link in the Input Box and press "Download,"
+          and That's it.
         </p>
       </div>
-      <div className={"mt-10"}>
+      <div className={"my-10"}>
         <h2 className={"font-semibold"}>
           How to Download HD Youtube Thumbnail
         </h2>
@@ -34,62 +40,114 @@ const AppInfo = () => {
         </ol>
       </div>
       <div className="my-10">
-        <h2 className={"font-semibold"}>WHAT IS THUMBNAIL?</h2>
+        <h2 className="font-semibold">
+          What is the use of ytthumbnaildownloader?
+        </h2>
         <p>
-          Thumbnails are obviously executed on site pages as discrete, littler
-          duplicates of the first picture, to some degree since one motivation
-          behind a thumbnail picture on a website page is to decrease transfer
-          speed and download time. Some website specialists produce thumbnails
-          with HTML or customer side scripting that makes the client's program
-          contract the image, instead of utilization a littler duplicate of the
-          picture.
+          With the help of it, you can save or download a youtube video
+          thumbnail free of cost. And you can use this Thumbnail in your
+          upcoming project. ytthumbnaildownloader is the fastest thumbnail
+          downloader in the world 🌏.
         </p>
       </div>
       <div className="my-10">
-        <h2 className={"font-semibold"}>WHY CUSTOM THUMBNAIL WORK BETTER?</h2>
-        <p>
-          Great custom thumbnails lead to more perspectives and more snaps. It's
-          as straightforward as that. Here are reasons why some custom
-          thumbnails work and others don't.
-        </p>
+        <h2 className="font-semibold">
+          Why You Should Use Youtube Thumbnail Downloader?
+        </h2>
+        <ol className="mx-2 list-decimal">
+          <li>✨Fastest Thumbnail Downloader on planet(Even work offline).</li>
+          <li>🎈 Clean Design And Light Weight(Only 3MB).</li>
+          <li>💯 AD free.</li>
+          <li>📦 Download YouTube thumbnail images of all quality.</li>
+          <li>
+            ☕ Remember past Thumbnails(We don't store them on our servers.).
+          </li>
+          <li>
+            ⬇ You can download unlimited thumbnail we don't have any limit.
+          </li>
+          <li>0️⃣ Zero downtime.</li>
+          <li>
+            🏌 Grab / Save / Download any youtube video's thumbnail, which are
+            available publicly.
+          </li>
+        </ol>
+      </div>
+
+      <div className="my-10">
+        <h2 className={"font-semibold"}>WHAT IS THUMBNAIL?</h2>
         <ol className="mx-2 list-decimal">
           <li>
-            The best thumbnails are custom – not simply still edges from the
-            recordings. They are devoted, expertly shot, expertly altered
-            pictures, intended to prod you about what's inside the video.
+            A thumbnail is usually the first impression of your video and
+            essentially determines whether people will click 🖱 through it.
           </li>
           <li>
-            What do the most effective thumbnails share for all intents and
-            purpose? The appropriate response is, while they are every one of
-            the a great pictures, they are entirely straightforward with just a
-            few principle components. That implies that when you recoil them
-            down to 10% of their unique plan size, at the end of the day:
-            thumbnail review size.
+            Video thumbnails let viewers see a quick snapshot of your video.
           </li>
           <li>
-            Text ought to be utilized sparingly. Close to a few words. Keep in
-            mind, you have a video title to do that – and the exact opposite
-            thing you need to do is disgorge your title in the thumbnail. That
-            is an extremely basic error. Similarly as with everything, there are
-            special cases to this standard.
-          </li>
-          <li>
-            Always recall YouTube arrangements. You can't evade this timestamp
-            smudging your thumbnail. Simply know that it is consistently on the
-            base right hand corner of your thumbnail or you'll wind up with an
-            issue.
+            YouTube thumbnail not only helps improve your channel's brand, but
+            it also attracts visitors and more eyes to your content.
           </li>
         </ol>
       </div>
       <div className="my-10">
-        <h2 className={"font-semibold"}>WHO USES THUMBNAIL?</h2>
+        <h2 className={"font-semibold"}>
+          Why should you use a custom thumbnail?
+        </h2>
+        <ol className="mx-2 list-decimal">
+          <li>
+            Instant Judgment - The Thumbnail for your video is the very first
+            thing viewers will see, so you want to make it look great.
+          </li>
+          <li>
+            The Thumbnail is the primary advertisement of your video. Don't
+            leave this promotion to chance with a randomly generated image.
+          </li>
+        </ol>
+      </div>
+      <div className="my-10">
+        <h2 className={"font-semibold"}>
+          How Youtube custom thumbnail helps you get more views?
+        </h2>
         <p>
-          This software is mostly used by people with technology such as web
-          hosting employees, they take help of this software in making the
-          project so that their project will be good and they can easily reach
-          their point, this software is also used by people who are HTML
-          programmer, this gives them their favorite photo for their coding
-          purpose.
+          People easily get attracted to unique and attractive things. People
+          mostly click 🖱 on a YouTube video because it has descriptive, catch,
+          or sometimes weird Thumbnail.
+        </p>
+      </div>
+      <div className="my-10">
+        <h2 className={"font-semibold"}>
+          How to make your own YouTube thumbnail?
+        </h2>
+        <p>
+          In the market, there is plenty of tools 🔧 available to create
+          Thumbnail. You can use any online YouTube thumbnail creator and
+          Photoshop template.
+        </p>
+      </div>
+      <div className="my-10">
+        <h2 className={"font-semibold"}>What is YouTube thumbnail size?</h2>
+        <p>
+          It should be 1280x720. Your custom thumbnail image should be as large
+          as possible. The image will also be used as the preview image in the
+          embedded player. Have a resolution of 1280x720 (with a minimum width
+          of 640 pixels). Be uploaded in image formats such as .JPG, .GIF, .BMP,
+          or .PNG .
+        </p>
+      </div>
+      <div className="my-10">
+        <h2 className={"font-semibold"}>
+          Limit of ytthumbnaildownloader tool?
+        </h2>
+        <p>
+          There is no limit, and we never impose any limitation on our website.
+          You can download YouTube thumbnails without any ads or limit.
+        </p>
+      </div>
+      <div className="my-10">
+        <h2 className={"font-semibold"}>ANY CHROME EXTENSION FOR THUMBNAIL?</h2>
+        <p>
+          No, Currently, there is no chrome extension for downloading or saving
+          Youtube Thumbnail. We are planning to make a chrome extension.
         </p>
       </div>
     </div>
