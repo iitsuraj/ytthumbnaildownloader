@@ -6,12 +6,14 @@ import { lastDownloadedStorage, addANewDownload } from "../lib";
 import Head from "next/head";
 import { NextSeo } from "next-seo";
 import { useState, useRef, useEffect } from "react";
+import { useRouter } from "next/router";
 
 const home = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [url, setUrl] = useState("");
   const [videoId, setVideoId] = useState("");
   const [lastDownloads, setLastDownloads] = useState([]);
+  const router = useRouter();
 
   const checkUrl = () => {
     var res = url.match(
@@ -21,11 +23,25 @@ const home = () => {
       alert("Please check the URL you have entered");
       return 0;
     }
-    setVideoId(res[1]);
-    setIsOpen(true);
-    addANewDownload(res[1]);
+    const id = getParameterByName("v", url);
+    openModal(id);
+    return;
   };
-
+  const openModal = (id) => {
+    if (id) {
+      setVideoId(id);
+      setIsOpen(true);
+      addANewDownload(id);
+    }
+  };
+  const getParameterByName = (name, url) => {
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+      results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return "";
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
+  };
   const closeModal = () => {
     setLastDownloads([...new Set([...lastDownloads, videoId])]);
     setIsOpen(false);
@@ -39,6 +55,9 @@ const home = () => {
   };
 
   const inputElement = useRef(null);
+  useEffect(() => {
+    openModal(router.query.id);
+  }, [router.query.id]);
   useEffect(() => {
     if (inputElement.current) {
       inputElement.current.focus();

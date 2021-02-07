@@ -113,7 +113,9 @@ const Modal = ({ videoId, onClose }) => {
                     )
                   }
                   disabled={!isSd}
-                  className="bg-gray-100 hover:bg-gray-300 text-gray-darkest focus:outline-none font-bold py-2 px-4 rounded inline-flex items-center"
+                  className={`bg-gray-100 hover:bg-gray-300 text-gray-darkest focus:outline-none font-bold py-2 px-4 rounded inline-flex items-center ${
+                    !isHd ? "disabled:opacity-50" : ""
+                  }`}
                 >
                   <svg
                     className="w-4 h-4 mr-2"
