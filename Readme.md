@@ -1,5 +1,6 @@
+
 🔥 Youtube Thumbnail Downloader 🔥
 
 ---
 
-🚀 Launch on - https://ytthumnaildownloader.itsuraj.com
+🚀 Launch on - [Download youtube thumbnail](https://ytthumnaildownloader.itsuraj.com)
