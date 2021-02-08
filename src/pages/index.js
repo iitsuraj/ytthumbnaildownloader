@@ -69,9 +69,9 @@ const home = () => {
   }, []);
 
   const home = {
-    title: "Youtube Thumbnail Downloader For PC / Mobile",
+    title: "Youtube Thumbnail Downloader For high resolution",
     description:
-      "Download YouTube video thumbnail of all quality. You can download Youtube Thumbnail (HD, HQ, 1080p, 4K, etc.).",
+      "⬇️ Download YouTube video thumbnail in High resolution. Youtube Thumbnail Download image in 1 click for free. ythumbnaildownloader - your thumbnail in HD, HQ",
     url: "https://ytthumbnaildownloader.itsuraj.com/",
     image: "https://ytthumbnaildownloader.itsuraj.com/social-1200x800.png",
   };

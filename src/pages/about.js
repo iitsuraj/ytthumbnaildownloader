@@ -4,9 +4,9 @@ import { NextSeo } from "next-seo";
 
 const About = () => {
   const home = {
-    title: "About - Youtube Thumbnail Downloader",
+    title: "About - Youtube Thumbnail Downloader 2021",
     description:
-      "Save Youtube thumbnail in all Sizes and Quality. Learn more about how to download youtube thumbnail",
+      "Save Youtube thumbnail with 2021 best thumbnail downloader. Learn more about how to download youtube thumbnail",
     url: "https://ytthumbnaildownloader.itsuraj.com/about/",
     image: "https://ytthumbnaildownloader.itsuraj.com/social-1200x800.png",
   };
