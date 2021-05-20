@@ -34,7 +34,7 @@ const About = () => {
       </Head>
       <div className="container mx-auto">
         <div className="mt-10 mb-20">
-          <h1>About Us</h1>
+          <h1 className="font-semibold">About Us</h1>
           <p>
             youtube thumbnail downloader tool created by suraj saini. You can
             read about suraj saini here{" "}
@@ -42,7 +42,7 @@ const About = () => {
               Read more about suraj saini
             </a>
           </p>
-          <h2>Write Us</h2>
+          <h2 className="font-semibold">Write Us</h2>
           <p>
             Got user feedback? We’d love to hear from you, our users. For
             content related feedback, please provide to
@@ -51,7 +51,7 @@ const About = () => {
             residential address, Email address, Feedback or explanation in 500
             words.
           </p>
-          <h2>Please Contact</h2>
+          <h2 className="font-semibold">Please Contact</h2>
           <p>
             For advertising and brand integration opportunities on one of
             India’s largest digital news publishing group.
