@@ -34,29 +34,29 @@ const About = () => {
       </Head>
       <div className="container mx-auto">
         <div className="mt-10 mb-20">
-          <div className="my-10">
-            <h1 className="font-semibold">Download YouTube Thumbnail</h1>
-            <p>
-              Is a Free online tool. With the help of it, you can download
-              Youtube Video Thumbnails 🖼 in Different Sizes and Qualities.
-            </p>
-            <hr />
-            <p>Supported image formates</p>
-            <ol className="mx-2 list-decimal">
-              <li>HD Image - 1280x720px</li>
-              <li>SD Image - 640x480px</li>
-              <li>HQ Image - 480x360px</li>
-              <li>MQ Image - 320x180px</li>
-              <li>Normal Image - 120x90px</li>
-            </ol>
-          </div>
-          <div className="my-10">
-            <h2 className="font-semibold">Note: </h2>
-            <p>
-              We never store your thumbnails on our server, Your entry is 100%
-              private, we never track our user's searches.
-            </p>
-          </div>
+          <h1>About Us</h1>
+          <p>
+            youtube thumbnail downloader tool created by suraj saini. You can
+            read about suraj saini here{" "}
+            <a href="https://itsuraj.com/about-us">
+              Read more about suraj saini
+            </a>
+          </p>
+          <h2>Write Us</h2>
+          <p>
+            Got user feedback? We’d love to hear from you, our users. For
+            content related feedback, please provide to
+            itsuraj.offical@gmail.com, details about the person who desires to
+            give feedback along with the following: Full Name, Postal,
+            residential address, Email address, Feedback or explanation in 500
+            words.
+          </p>
+          <h2>Please Contact</h2>
+          <p>
+            For advertising and brand integration opportunities on one of
+            India’s largest digital news publishing group.
+            itsuraj.offical@gmail.com
+          </p>
         </div>
       </div>
     </Layout>

@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const AppInfo = () => {
   return (
     <div className="mt-10 mb-20">
@@ -144,10 +146,56 @@ const AppInfo = () => {
         </p>
       </div>
       <div className="my-10">
+        <h2 className={"font-semibold"}>
+          Can I use the downloaded thumbnails on YouTube?
+        </h2>
+        <p>
+          The copyright of the thumbnail belongs to the creator or designer.
+          Without the copyright owner's permission, they can report and sue you
+          for using the content in the thumbnail. Therefore, I don't recommend
+          copying the video thumbnails of others. But you can use it as a
+          design, inspiration to create your thumbnails.
+        </p>
+      </div>
+      <div className="my-10">
         <h2 className={"font-semibold"}>ANY CHROME EXTENSION FOR THUMBNAIL?</h2>
         <p>
           No, Currently, there is no chrome extension for downloading or saving
           Youtube Thumbnail. We are planning to make a chrome extension.
+        </p>
+      </div>
+      <div className="my-10">
+        <h2 className={"font-semibold"}>Any Firefox chrome extension</h2>
+        <p>Yes, we have Firefox extension you can download with this button</p>
+        <a href="https://addons.mozilla.org/en-GB/firefox/addon/youtube-thumbnail-downloader">
+          <img
+            src="/get-the-addon.png"
+            alt="Youtube thumbnail downloader"
+            className="mt-10"
+          />
+        </a>
+      </div>
+      <div className="my-10">
+        <h2 className="font-semibold">Download YouTube Thumbnail</h2>
+        <p>
+          Is a Free online tool. With the help of it, you can download Youtube
+          Video Thumbnails 🖼 in Different Sizes and Qualities.
+        </p>
+        <hr />
+        <p>Supported image format's</p>
+        <ol className="mx-2 list-decimal">
+          <li>HD Image - 1280x720px</li>
+          <li>SD Image - 640x480px</li>
+          <li>HQ Image - 480x360px</li>
+          <li>MQ Image - 320x180px</li>
+          <li>Normal Image - 120x90px</li>
+        </ol>
+      </div>
+      <div className="my-10">
+        <h2 className="font-semibold">Note: </h2>
+        <p>
+          We never store your thumbnails on our server, Your entry is 100%
+          private, we never track our user's searches.
         </p>
       </div>
     </div>
